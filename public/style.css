@@ -1,4 +1,4 @@
-/* General Body Styling */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,14 +8,14 @@ body {
     text-align: center;
 }
 
-/* Header */
+
 h1 {
     font-size: 2.5rem;
     color: #fff;
     margin: 20px 0;
 }
 
-/* Form Styling */
+
 form {
     margin: 20px 0;
 }
@@ -25,7 +25,7 @@ label {
     color: #fff;
 }
 
-/* Glass Effect for Input */
+
 input {
     width: 300px;
     padding: 10px;
@@ -58,7 +58,7 @@ button:hover {
     background: #45a049;
 }
 
-/* Flashcards Container */
+
 #flashcardsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +67,7 @@ button:hover {
     margin: 20px;
 }
 
-/* Flashcard Styling */
+
 .flashcard {
     width: 300px;
     height: 200px;
@@ -129,7 +129,7 @@ button:hover {
     transform: rotateY(180deg);
 }
 
-/* Responsive Design */
+/* flipdisine */
 @media (max-width: 768px) {
     input {
         width: 80%;
