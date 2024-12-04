@@ -20,10 +20,10 @@
         const flashcardsContainer = document.getElementById('flashcardsContainer');
 
         form.addEventListener('submit', async (event) => {
-            event.preventDefault(); // Prevent form submission reload
+            event.preventDefault(); 
             const inputData = document.getElementById('inputData').value;
 
-            flashcardsContainer.innerHTML = '<p>Loading...</p>'; // Show loading message
+            flashcardsContainer.innerHTML = '<p>Loading...</p>'; 
 
             try {
                 const response = await fetch('/process', {
@@ -45,7 +45,7 @@
         });
 
         function displayFlashcards(flashcards) {
-            flashcardsContainer.innerHTML = ''; // Clear existing flashcards
+            flashcardsContainer.innerHTML = '';
 
             flashcards.forEach(({ term, definition }) => {
                 const flashcard = document.createElement('div');
